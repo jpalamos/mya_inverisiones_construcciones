@@ -120,11 +120,18 @@ footer p{
 }
 
 @media only screen and (max-width: 768px) {
+    section{
+        background-position: top;
+        background-size: 200%;
+    }
     section ul li.slider__frame > div{
         max-width: 100%;
     }
     section div.slider__track {
         max-height: 900px;
+    }
+    section ul.slider__slides > li.slider__frame{
+        margin:3px
     }
 }
 @media only screen and (max-width: 530px){
