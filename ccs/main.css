@@ -24,12 +24,13 @@ header div[data-side="left"]{
 }
 header div[data-side="right"]{
     width: 74%;
+    white-space: nowrap;
     /* text-align: right; */
 }
-
+#header-menu{
+}
 #header-menu span{
     border-radius: 0.5em;;
-    display: inline-block;
     margin: 0 3px;
     padding: 5px 8px;
     background: #44538a;
@@ -100,4 +101,29 @@ section ul li article p{
 
 footer p{
     text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    header{
+      max-width: 100%;
+    }
+    header div{
+        display: block;
+        margin: 10px auto;
+    }
+    header div[data-side="right"]{
+        width: 100%;
+    }
+    section ul li.slider__frame > div iframe{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section ul li.slider__frame > div{
+        max-width: 100%;
+    }
+    section div.slider__track {
+        max-height: 900px;
+    }
 }
