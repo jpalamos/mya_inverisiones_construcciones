@@ -78,7 +78,7 @@ section ul li div[data-side="right"] img{
     border-radius: 0.5em;
 }
 section ul li article{
-    margin: 30px 5px;
+    margin: 30px 10px 5px 10px;
 }
 
 section ul li article h1{
@@ -90,7 +90,7 @@ section ul li article > ul{
     /* padding-left: 10px; */
 }
 section ul li article > ul li{
-    text-align: left;
+    text-align: justify;
     margin-top: 10px;
     margin-left: 30px;
 }
