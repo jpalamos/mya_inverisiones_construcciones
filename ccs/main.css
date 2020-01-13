@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    background-image: url("../img/index/17704gray-min.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+header{
+    margin: 10px auto;
+    max-width: 70%;
+    min-width: 100px;
+}
+header div{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+
+}
+header div[data-side="left"]{
+    width: 25%;
+}
+header div[data-side="right"]{
+    width: 74%;
+    /* text-align: right; */
+}
+
+#header-menu span{
+    border-radius: 0.5em;;
+    display: inline-block;
+    margin: 0 3px;
+    padding: 5px 8px;
+    background: #44538a;
+    color: #fff;
+    transition: all .25s;
+}
+
+#header-menu span:hover{
+    margin: 0 1px;
+    padding: 8px 10px;
+    background:orange;
+}
+
+#header-menu span.glide__bullet--active{
+    background:orange;
+}
+section div.slider__track{
+    max-height: 700px;
+}
+
+section ul.slider__slides > li.slider__frame{
+    margin: auto;
+    text-align: center;
+}
+section ul li.slider__frame > div{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 49%;
+}
+section ul li.slider__frame > div[data-side="left"]{
+    background-color: #888b;
+    border-radius: 0.5em;
+}
+section ul li div[data-side="right"]{
+    /* -webkit-box-shadow: inset 0px 0px 49px 55px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 49px 55px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 49px 55px rgba(255,255,255,1); */
+
+}
+section ul li div[data-side="right"] img{
+    display: block;
+    max-height: 607px;
+    max-width: 90%;
+    margin: auto;
+    border-radius: 0.5em;
+}
+section ul li article{
+    margin: 30px 5px;
+}
+
+section ul li article h1{
+    font-size: 60px;
+}
+
+section ul li article > ul{
+    list-style-position: outside;
+    /* padding-left: 10px; */
+}
+section ul li article > ul li{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+section ul li article p{
+    text-align: justify;
+}
+
+footer p{
+    text-align: center;
+}
